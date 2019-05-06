@@ -1,0 +1,71 @@
+<HTML>
+<head>
+    <style>
+
+.calcContainer{
+    width: 100%;
+    height: 100%;
+    background-color: seagreen;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+    'field field field'
+    'plus minus equal'
+    ' . clear . ';
+    grid-gap: 10px;
+}
+
+.calcField{
+    background-color:white;
+    grid-area: field;
+    text-align: center;
+    vertical-align: center;
+    height: 50px;
+}
+
+[class^=button]{
+    background-color:cornsilk;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.buttonPlus{
+    grid-area: plus;
+}
+
+.buttonMinus{
+    grid-area: minus;
+}
+
+.buttonEquals{
+    grid-area: equal;
+}
+
+.buttonClear{
+    grid-area: clear;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <script>
+        function
+    </script>
+
+    <div class="calcContainer">
+        <div class="calcField">Field</div>
+        <div class="buttonPlus">+</div>
+        <div class="buttonMinus">-</div>
+        <div class="buttonEquals">=</div>
+        <div class="buttonClear">clear</div>
+    </div>
+
+
+</body>
+
+</HTML>
