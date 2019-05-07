@@ -88,9 +88,15 @@
                 $(".calcField").text( $(".calcField").text() +'-' );
             });
 
+            $(".buttonClear").click(function(){
+                $(".calcField").text("");
+            });
+
             $(".buttonEquals").click(function(){
-                var result = result + $(".calcfield"); 
-                $(".calcField").text(result);
+                var calc = $(".calcField").text(); 
+                console.log(result);
+                var result = eval (calc); 
+                $(".calcField").text(result)
             });
         });
 
