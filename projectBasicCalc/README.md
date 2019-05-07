@@ -7,7 +7,8 @@ to goal is to produce a basic calculator that can perform the \+ and \-  modific
 * \- this push should include the image file. I'll all this manually for now.
 * [x] 2.1 learn about markdown, attempt to create a clearer file.
 * [x] 3: set up basic html \+ css structure using css grid.
-* [ ] 4: set up input field to generate a variable using JavaScript.
+* [x] 4: set up input field to generate a variable using JavaScript.
+*\- reduced this to 3 buttons, functionality for append will be added later
 * [ ] 5: get \+ and \- buttons to perform their respective functions.
 * [ ] 6: get = button to perform its functionality.
 * [ ] 7: get clear button to work.

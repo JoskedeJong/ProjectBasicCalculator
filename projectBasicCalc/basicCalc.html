@@ -1,5 +1,6 @@
 <HTML>
 <head>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <style>
 
 .calcContainer{
@@ -11,6 +12,7 @@
     align-content: center;
     grid-template-areas: 
     'field field field'
+    'one two three'
     'plus minus equal'
     ' . clear . ';
     grid-gap: 10px;
@@ -48,17 +50,56 @@
     grid-area: clear;
 }
 
+.buttonOne{
+    grid-area: one;
+}
+
+.buttonTwo{
+    grid-area: two;
+}
+
+.buttonThree{
+    grid-area: three;
+}
 
     </style>
+    
+    <script>
+
+        $(document).ready(function(event) {
+    
+            $(".buttonOne").click(function(){
+                // alert('Hello!');
+                // $(".buttonOne").css("border", "solid 2px red");
+                $(".calcField").text("1");
+            });
+
+            $(".buttonTwo").click(function(){
+                // alert('Hello!');
+                // $(".buttonOne").css("border", "solid 2px red");
+                $(".calcField").text("2");
+            });
+
+            $(".buttonThree").click(function(){
+                // alert('Hello!');
+                // $(".buttonOne").css("border", "solid 2px red");
+                $(".calcField").text("3");
+            });
+        });
+
+
+    
+    </script>
+
 </head>
 
 <body>
-    <script>
-        function
-    </script>
 
     <div class="calcContainer">
-        <div class="calcField">Field</div>
+        <div class="calcField"></div>
+        <div class="buttonOne">1</div>
+        <div class="buttonTwo">2</div>
+        <div class="buttonThree">3</div>
         <div class="buttonPlus">+</div>
         <div class="buttonMinus">-</div>
         <div class="buttonEquals">=</div>
