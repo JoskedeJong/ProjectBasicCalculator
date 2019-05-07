@@ -69,21 +69,28 @@
         $(document).ready(function(event) {
     
             $(".buttonOne").click(function(){
-                // alert('Hello!');
-                // $(".buttonOne").css("border", "solid 2px red");
-                $(".calcField").text("1");
+                $(".calcField").text( $(".calcField").text() +'1' );
             });
 
             $(".buttonTwo").click(function(){
-                // alert('Hello!');
-                // $(".buttonOne").css("border", "solid 2px red");
-                $(".calcField").text("2");
+                $(".calcField").text( $(".calcField").text() +'2' );
             });
 
             $(".buttonThree").click(function(){
-                // alert('Hello!');
-                // $(".buttonOne").css("border", "solid 2px red");
-                $(".calcField").text("3");
+                $(".calcField").text( $(".calcField").text() +'3' );
+            });
+
+            $(".buttonPlus").click(function(){
+                $(".calcField").text( $(".calcField").text() +'+' );
+            });
+
+            $(".buttonMinus").click(function(){
+                $(".calcField").text( $(".calcField").text() +'-' );
+            });
+
+            $(".buttonEquals").click(function(){
+                var result = result + $(".calcfield"); 
+                $(".calcField").text(result);
             });
         });
 
