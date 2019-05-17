@@ -18,7 +18,7 @@ the goal is to produce a basic calculator that can perform the \+ and \-  modifi
 #### update goals:
 * [x] split project into separate files
 * [x] add buttons 5 to 9
-* [ ] add multiplication and division
+* [x] add multiplication and division
 * [ ] limit amount of operations to 1
 
 

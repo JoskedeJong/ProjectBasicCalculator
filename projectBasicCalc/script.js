@@ -45,6 +45,14 @@ $(document).ready(function(event) {
         $(".calcField").text( $(".calcField").text() +'-' );
     });
 
+    $(".buttonMultiply").click(function(){
+        $(".calcField").text( $(".calcField").text() +'*' );
+    });
+
+    $(".buttonDivide").click(function(){
+        $(".calcField").text( $(".calcField").text() +'/' );
+    });
+
     $(".buttonClear").click(function(){
         $(".calcField").text("");
     });
