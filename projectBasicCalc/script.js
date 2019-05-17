@@ -13,6 +13,30 @@ $(document).ready(function(event) {
         $(".calcField").text( $(".calcField").text() +'3' );
     });
 
+    $(".buttonFour").click(function(){
+        $(".calcField").text( $(".calcField").text() +'4' );
+    });
+
+    $(".buttonFive").click(function(){
+        $(".calcField").text( $(".calcField").text() +'5' );
+    });
+
+    $(".buttonSix").click(function(){
+        $(".calcField").text( $(".calcField").text() +'6' );
+    });
+
+    $(".buttonSeven").click(function(){
+        $(".calcField").text( $(".calcField").text() +'7' );
+    });
+
+    $(".buttonEight").click(function(){
+        $(".calcField").text( $(".calcField").text() +'8' );
+    });
+
+    $(".buttonNine").click(function(){
+        $(".calcField").text( $(".calcField").text() +'9' );
+    });
+
     $(".buttonPlus").click(function(){
         $(".calcField").text( $(".calcField").text() +'+' );
     });
