@@ -1,7 +1,9 @@
-Project 'Basic calculator'
+## Project 'Basic calculator'
 
-to goal is to produce a basic calculator that can perform the \+ and \-  modifications to an entry.
+the goal is to produce a basic calculator that can perform the \+ and \-  modifications to an entry.
 
+
+#### development goals:
 * [x] 1: create a sketch of the rough outline and functionality of the document.
 * [x] 2: create and push a new repository using the command line.
 * \- this push should include the image file. I'll all this manually for now.
@@ -13,8 +15,13 @@ to goal is to produce a basic calculator that can perform the \+ and \-  modific
 * [x] 6: get = button to perform its functionality.
 * [x] 7: get clear button to work.
 
+#### update goals:
+* [x] split project into separate files
+* [ ] add buttons 5 to 9
+* [ ] add multiplication and division
+* [ ] limit amount of operations to 1
 
-optional goals:
 
+#### optional goals:
 * \- create 'clear last' button that only undoes \+ or \-
-* \- create other modification buttons
+* \- turn calculator into graphic calculator using Tabulator or Chart.js

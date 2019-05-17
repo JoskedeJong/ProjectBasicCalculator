@@ -1,0 +1,58 @@
+.calcContainer{
+    width: 100%;
+    height: 100%;
+    background-color: seagreen;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+'field field field'
+    'one two three'
+    'plus minus equal'
+    ' . clear . ';
+    grid-gap: 10px;
+}
+
+.calcField{
+    background-color:white;
+    grid-area: field;
+    text-align: center;
+    vertical-align: center;
+    height: 50px;
+}
+
+[class^=button]{
+    background-color:cornsilk;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.buttonPlus{
+    grid-area: plus;
+}
+
+.buttonMinus{
+    grid-area: minus;
+}
+
+.buttonEquals{
+    grid-area: equal;
+}
+
+.buttonClear{
+    grid-area: clear;
+}
+
+.buttonOne{
+    grid-area: one;
+}
+
+.buttonTwo{
+    grid-area: two;
+}
+
+.buttonThree{
+    grid-area: three;
+}
