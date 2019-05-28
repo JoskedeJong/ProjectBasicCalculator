@@ -1,6 +1,8 @@
 ## Project 'Basic calculator'
 
-the goal is to produce a basic calculator that can perform the \+ and \-  modifications to an entry.
+goal: to produce a basic calculator that can perform the \+ and \-  modifications to an entry.
+goal, update 1: add operators and remaining buttons
+goal, update 2: upgrade basic calculator to graphing calculator by integrating chart.js
 
 
 #### development goals:
@@ -10,7 +12,7 @@ the goal is to produce a basic calculator that can perform the \+ and \-  modifi
 * [x] 2.1 learn about markdown, attempt to create a clearer file.
 * [x] 3: set up basic html \+ css structure using css grid.
 * [x] 4: set up input field to generate a variable using JavaScript.
-*\- reduced this to 3 buttons, functionality for append will be added later
+* \- reduced this to 3 buttons, functionality for append will be added later
 * [x] 5: get \+ and \- buttons to perform their respective functions.
 * [x] 6: get = button to perform its functionality.
 * [x] 7: get clear button to work.
@@ -20,6 +22,11 @@ the goal is to produce a basic calculator that can perform the \+ and \-  modifi
 * [x] add buttons 5 to 9
 * [x] add multiplication and division
 * [ ] limit amount of operations to 1
+
+#### Update, round 2:
+* [x] make graph button that slides graph-field into screen
+* [ ] make buttons for inputting functions
+* [ ] integrate charts.js into project
 
 
 #### optional goals:

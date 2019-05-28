@@ -53,6 +53,17 @@ $(document).ready(function(event) {
         $(".calcField").text( $(".calcField").text() +'/' );
     });
 
+    $(".buttonGraph").click(function(){
+        var f = !$(this).data("toggleLeft");
+        if (f) {
+            $(".graphField").addClass("inView");
+        }
+        else {
+            $(".graphField").removeClass("inView");
+        }
+        $(this).data("toggleLeft", f);
+    });
+
     $(".buttonClear").click(function(){
         $(".calcField").text("");
     });
