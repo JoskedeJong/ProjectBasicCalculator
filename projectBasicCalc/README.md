@@ -2,7 +2,7 @@
 
 goal: to produce a basic calculator that can perform the \+ and \-  modifications to an entry.
 goal, update 1: add operators and remaining buttons
-goal, update 2: upgrade basic calculator to graphing calculator by integrating chart.js
+goal, update 2: upgrade basic calculator to graphing calculator by integrating chart.js. Minimum requirements: to have the calculator plot a simple 2 variable function.
 
 
 #### development goals:
@@ -27,6 +27,8 @@ goal, update 2: upgrade basic calculator to graphing calculator by integrating c
 * [x] make graph button that slides graph-field into screen
 * [x] make buttons for inputting functions
 * [ ] integrate charts.js into project
+* * [x] make a pre-defined chart appear
+* * [ ] make buttons influence chart
 * [ ] make buttons functional, making them enter data in the calcfield
 
 

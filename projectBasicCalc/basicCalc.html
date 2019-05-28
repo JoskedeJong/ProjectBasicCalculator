@@ -1,8 +1,6 @@
 <HTML>
 <head>
-    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">    
 </head>
 
 <body>
@@ -29,12 +27,12 @@
 
     <div class="graphField">
         <div class="graphContainer">
-            <canvas class="placeholder">
+            <canvas class="placeholder" id="myChart">
             </canvas>
-            <div class="buttonGOne">1</div>
-            <div class="buttonGTwo">2</div>
-            <div class="buttonGThree">3</div>
-            <div class="buttonGFour">4</div>
+            <div class="buttonGOne">x</div>
+            <div class="buttonGTwo">y</div>
+            <div class="buttonGThree">(</div>
+            <div class="buttonGFour">)</div>
             <div class="buttonGFive">5</div>
             <div class="buttonGSix">6</div>
             <div class="buttonGSeven">7</div>
@@ -43,6 +41,9 @@
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="script.js"></script>
 </body>
 
 </HTML>
