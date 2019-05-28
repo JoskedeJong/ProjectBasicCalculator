@@ -25,8 +25,9 @@ goal, update 2: upgrade basic calculator to graphing calculator by integrating c
 
 #### Update, round 2:
 * [x] make graph button that slides graph-field into screen
-* [ ] make buttons for inputting functions
+* [x] make buttons for inputting functions
 * [ ] integrate charts.js into project
+* [ ] make buttons functional, making them enter data in the calcfield
 
 
 #### optional goals:

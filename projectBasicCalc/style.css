@@ -23,10 +23,6 @@ body{
 }
 
 .graphContainer{
-    /* width: 35%;
-    height: 60%;
-    background-color: seagreen; */
-    border: 1px solid darkslategray;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -34,7 +30,10 @@ body{
     'canvas canvas canvas'
     'canvas canvas canvas'
     'canvas canvas canvas'
-    'canvas canvas canvas';
+    'canvas canvas canvas'
+    'g1 g2 g3'
+    'g4 g5 g6'
+    'g7 g8 g9';
     grid-gap: 10px;
 }
 
@@ -55,7 +54,8 @@ body{
     width: 35%;
     height: 50%;
     top: 25%;
-    background-color:sienna;
+    background-color:rgb(66, 155, 105);
+    border: 1px solid darkslategray;
 }
 
 .inView{
@@ -63,8 +63,10 @@ body{
 }
 
 .placeholder{
+    grid-area: canvas;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    margin: 10px 0 0 0;
     background-color: deeppink;
 }
 
@@ -94,12 +96,28 @@ body{
     grid-area: clear;
 }
 
+.buttonMultiply{
+    grid-area: multi;
+}
+
+.buttonDivide{
+    grid-area: divide;
+}
+
+.buttonGraph{
+    grid-area: graph;
+}
+
 .buttonOne{
     grid-area: one;
 }
 
 .buttonTwo{
     grid-area: two;
+}
+
+.buttonThree{
+    grid-area: three;
 }
 
 .buttonFour{
@@ -126,14 +144,41 @@ body{
     grid-area: nine;
 }
 
-.buttonMultiply{
-    grid-area: multi;
+/*-------------------------------------------------------------------- Graph Button grid Assingments ---------------------------------------------------------------------------- */
+
+
+.buttonGOne{
+    grid-area: g1;
 }
 
-.buttonDivide{
-    grid-area: divide;
+.buttonGTwo{
+    grid-area: g2;
 }
 
-.buttonGraph{
-    grid-area: graph;
+.buttonGThree{
+    grid-area: g3;
+}
+
+.buttonGFour{
+    grid-area: g4;
+}
+
+.buttonGFive{
+    grid-area: g5;
+}
+
+.buttonGSix{
+    grid-area: g6;
+}
+
+.buttonGSeven{
+    grid-area: g7;
+}
+
+.buttonGEigh{
+    grid-area: g8;
+}
+
+.buttonGNine{
+    grid-area: g9;
 }
