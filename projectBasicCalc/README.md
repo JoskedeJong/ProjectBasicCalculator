@@ -29,6 +29,9 @@ goal, update 2: upgrade basic calculator to graphing calculator by integrating c
 * [ ] integrate charts.js into project
 * * [x] make a pre-defined chart appear
 * * [ ] make buttons influence chart
+* * * [x] make loop that outputs data readable for charts.js format for set x and y value
+* * * [x] make functionality that implements readable data into charts.js format
+* * * [ ] make functionality that inputs calcField into loop
 * [ ] make buttons functional, making them enter data in the calcfield
 
 

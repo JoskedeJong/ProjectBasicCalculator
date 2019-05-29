@@ -16,8 +16,9 @@ body{
     'one two three'
     'four five six'
     'seven eight nine'
-    'plus minus .'
-    'multi divide graph' 
+    'plus zer0 multi' 
+    'minus dot divide'
+    'graph . adv'
     'clear . equal';
     grid-gap: 10px;
 }
@@ -53,7 +54,7 @@ body{
     left: -35%;
     width: 35%;
     height: 50%;
-    top: 25%;
+    top: 20%;
     background-color:rgb(66, 155, 105);
     border: 1px solid darkslategray;
 }
@@ -64,7 +65,7 @@ body{
 
 .placeholder{
     grid-area: canvas;
-    width: 100%;
+    /* width: 80%; */
     /* height: 100%; */
     margin: 10px 0 0 0;
     background-color: white;
@@ -108,6 +109,10 @@ body{
     grid-area: graph;
 }
 
+.buttonAdv{
+    grid-area: adv;
+}
+
 .buttonOne{
     grid-area: one;
 }
@@ -142,6 +147,10 @@ body{
 
 .buttonNine{
     grid-area: nine;
+}
+
+.buttonZero{
+    grid-area: zer0;
 }
 
 /*-------------------------------------------------------------------- Graph Button grid Assingments ---------------------------------------------------------------------------- */
