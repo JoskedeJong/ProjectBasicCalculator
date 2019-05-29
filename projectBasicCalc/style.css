@@ -100,22 +100,13 @@ body{
     background-color:white;
 }
 
-
-/* .placeholder{
-    grid-area: canvas;
-    width: 80%;
-    height: 100%;
-    margin: 10px 0 0 0;
-    background-color: white;
-} */
-
 [class^=button]{
     background-color:cornsilk;
     border: 1px solid rgb(81, 91, 100);
     min-width: 100px;
     min-height: 50px;
     text-align: center;
-    vertical-align: center;
+    line-height: 230%;
 }
 
 /*-------------------------------------------------------------------- Button grid Assingments -------------------------------------------------------------------------------- */

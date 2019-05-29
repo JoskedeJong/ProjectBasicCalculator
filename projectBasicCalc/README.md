@@ -42,7 +42,7 @@ goal, update 2: upgrade basic calculator to graphing calculator by integrating c
 * [x] make buttons for adv tab
 * [x] make toggle for graph and adv tab nicely animated
 * [ ] apply proper spacing for tab height
-* [ ] make design responsive
+* [ ] make design fully responsive
 
 
 #### optional goals:
