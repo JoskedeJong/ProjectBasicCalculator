@@ -49,9 +49,9 @@ $(document).ready(function(event) {
         $(".calcField").text( $(".calcField").text() +'x' );
     });
 
-    $(".buttonGTwo").click(function(){
-        $(".calcField").text( $(".calcField").text() +'y' );
-    });
+    // $(".buttonGTwo").click(function(){
+    //     $(".calcField").text( $(".calcField").text() +'y' );
+    // });
 
     // $(".buttonGThree").click(function(){
     //     $(".calcField").text( $(".calcField").text() +'(' );

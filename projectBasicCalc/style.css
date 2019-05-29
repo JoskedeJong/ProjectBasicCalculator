@@ -24,6 +24,10 @@ body{
 }
 
 .graphContainer{
+    width: 100%;
+    height: 100%;   
+    background-color:rgb(66, 155, 105);
+    border: 1px solid darkslategray;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -41,6 +45,7 @@ body{
 
 .calcField{
     background-color:white;
+    border: 1px solid rgb(81, 91, 100);
     grid-area: field;
     text-align: center;
     vertical-align: center;
@@ -51,23 +56,27 @@ body{
     position: fixed;
     left: -35%;
     width: 35%;
-    height: 50%;
+    height: 60%;
     top: 20%;
-    background-color:rgb(66, 155, 105);
-    border: 1px solid darkslategray;
 }
 
 .inView{
     left: 0;
 }
 
-.placeholder{
+.myChartContainer{
     grid-area: canvas;
-    /* width: 80%; */
-    /* height: 100%; */
+    background-color:white;
+}
+
+
+/* .placeholder{
+    grid-area: canvas;
+    width: 80%;
+    height: 100%;
     margin: 10px 0 0 0;
     background-color: white;
-}
+} */
 
 [class^=button]{
     background-color:cornsilk;
