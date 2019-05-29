@@ -69,18 +69,22 @@ body{
 
 .graphField{
     position: fixed;
-    left: -35%;
+    left: -40%;
     width: 35%;
     height: 60%;
     top: 20%;
+    transition: left .5s;
+    transition-timing-function: ease-out;
 }
 
 .advField{
     position: fixed;
-    right: -35%;
+    right: -40%;
     width: 35%;
     height: 60%;
     top: 20%;
+    transition: right .5s;
+    transition-timing-function: ease-out;
 }
 
 .inLeftView{

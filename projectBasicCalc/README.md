@@ -21,7 +21,8 @@ goal, update 2: upgrade basic calculator to graphing calculator by integrating c
 * [x] split project into separate files
 * [x] add buttons 5 to 9
 * [x] add multiplication and division
-* [ ] limit amount of operations to 1
+* [ ] limit amount of operations to 1 - scrapped for now, multiple operations is useful for plotting
+
 
 #### Update, round 2:
 * [x] make graph button that slides graph-field into screen
@@ -39,7 +40,7 @@ goal, update 2: upgrade basic calculator to graphing calculator by integrating c
 * [x] make graph div properly contain buttons
 * [x] make adv tab for advanced manipulations
 * [x] make buttons for adv tab
-* [ ] make toggle for graph and adv tab nicely animated
+* [x] make toggle for graph and adv tab nicely animated
 * [ ] apply proper spacing for tab height
 * [ ] make design responsive
 
