@@ -40,6 +40,21 @@ body{
     grid-gap: 10px;
 }
 
+.advContainer{
+    width: 100%;
+    height: 100%;   
+    background-color:rgb(66, 155, 105);
+    border: 1px solid darkslategray;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+   'a1 a2 a3'
+   'a4 a5 a6'
+   'a7 a8 a9';
+    grid-gap: 10px;
+}
+
 /*-------------------------------------------------------------------- Content ------------------------------------------------------------------------------------------------ */
 
 
@@ -60,8 +75,20 @@ body{
     top: 20%;
 }
 
-.inView{
+.advField{
+    position: fixed;
+    right: -35%;
+    width: 35%;
+    height: 60%;
+    top: 20%;
+}
+
+.inLeftView{
     left: 0;
+}
+
+.inRightView{
+    right: 0;
 }
 
 .myChartContainer{
@@ -198,4 +225,43 @@ body{
 
 .buttonGNine{
     grid-area: g9;
+}
+
+/*-------------------------------------------------------------------- Graph Button grid Assingments ---------------------------------------------------------------------------- */
+
+
+.buttonAOne{
+    grid-area: a1;
+}
+
+.buttonATwo{
+    grid-area: a2;
+}
+
+.buttonAThree{
+    grid-area: a3;
+}
+
+.buttonAFour{
+    grid-area: a4;
+}
+
+.buttonAFive{
+    grid-area: a5;
+}
+
+.buttonASix{
+    grid-area: a6;
+}
+
+.buttonASeven{
+    grid-area: a7;
+}
+
+.buttonAEigh{
+    grid-area: a8;
+}
+
+.buttonANine{
+    grid-area: a9;
 }

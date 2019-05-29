@@ -37,7 +37,8 @@ goal, update 2: upgrade basic calculator to graphing calculator by integrating c
 * cleanup goals:
 * [x] remove unneccesary graph buttons
 * [x] make graph div properly contain buttons
-* [ ] make adv tab with advanced manipulations
+* [x] make adv tab for advanced manipulations
+* [x] make buttons for adv tab
 * [ ] make toggle for graph and adv tab nicely animated
 * [ ] apply proper spacing for tab height
 * [ ] make design responsive

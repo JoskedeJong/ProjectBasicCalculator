@@ -49,19 +49,21 @@ $(document).ready(function(event) {
         $(".calcField").text( $(".calcField").text() +'x' );
     });
 
-    // $(".buttonGTwo").click(function(){
-    //     $(".calcField").text( $(".calcField").text() +'y' );
-    // });
-
-    // $(".buttonGThree").click(function(){
-    //     $(".calcField").text( $(".calcField").text() +'(' );
-    // });
-
-    // $(".buttonGFour").click(function(){
-    //     $(".calcField").text( $(".calcField").text() +')' );
-    // });
-
     $(".buttonGTwo").click(function(){ plotChart(); })
+
+/*-------------------------------------------------------------------- Adv Manipulators -------------------------------------------------------------------------------- */
+
+    $(".buttonAOne").click(function(){
+    $(".calcField").text( $(".calcField").text() +'(' );
+    });
+
+    $(".buttonATwo").click(function(){
+        $(".calcField").text( $(".calcField").text() +')' );
+    });
+
+    $(".buttonAThree").click(function(){
+        $(".calcField").text( $(".calcField").text() +'^' );
+    });
 /*-------------------------------------------------------------------- Main Manipulators -------------------------------------------------------------------------------- */
 
     $(".buttonDot").click(function(){
@@ -100,14 +102,24 @@ $(document).ready(function(event) {
     $(".buttonGraph").click(function(){
         var f = !$(this).data("toggleLeft");
         if (f) {
-            $(".graphField").addClass("inView");
+            $(".graphField").addClass("inLeftView");
         }
         else {
-            $(".graphField").removeClass("inView");
+            $(".graphField").removeClass("inLeftView");
         }
         $(this).data("toggleLeft", f);
     });
 
+    $(".buttonAdv").click(function(){
+        var f = !$(this).data("toggleRight");
+        if (f) {
+            $(".advField").addClass("inRightView");
+        }
+        else {
+            $(".advField").removeClass("inRightView");
+        }
+        $(this).data("toggleRight", f);
+    });
 
 
 /*-------------------------------------------------------------------- Data creation function ----------------------------------------------------------------------------- */
