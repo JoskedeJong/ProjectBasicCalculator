@@ -26,13 +26,21 @@ goal, update 2: upgrade basic calculator to graphing calculator by integrating c
 #### Update, round 2:
 * [x] make graph button that slides graph-field into screen
 * [x] make buttons for inputting functions
-* [ ] integrate charts.js into project
+* [x] integrate charts.js into project
 * * [x] make a pre-defined chart appear
-* * [ ] make buttons influence chart
+* * [x] make buttons influence chart
 * * * [x] make loop that outputs data readable for charts.js format for set x and y value
 * * * [x] make functionality that implements readable data into charts.js format
-* * * [ ] make functionality that inputs calcField into loop
-* [ ] make buttons functional, making them enter data in the calcfield
+* * * [x] make functionality that inputs calcField into loop
+* [x] make buttons functional, making them enter data in the calcfield
+
+* cleanup goals:
+* [ ] remove unneccesary graph buttons
+* [ ] make graph div properly contain buttons
+* [ ] make adv tab with advanced manipulations
+* [ ] make toggle for graph and adv tab nicely animated
+* [ ] apply proper spacing for tab height
+* [ ] make design responsive
 
 
 #### optional goals:

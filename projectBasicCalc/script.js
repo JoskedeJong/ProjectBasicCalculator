@@ -115,18 +115,19 @@ $(document).ready(function(event) {
     function plotChart(){
         var myLabel = 'Plotted Grrrrraph';
         var entryFormula = $(".calcField").text();
-        console.log(entryFormula);
+        console.log(entryFormula);  
 
-        removeData(myChart);                                        // removes previous chart data
+        myChart.data.datasets[0].data = [];
 
         for (x=-2; x<9; x++){                                       // creates new input data
-            var ydata = eval (entryFormula);
+            ydata = eval (entryFormula);
             myChart.data.datasets[0].data.push({
                 x: x,
                 y: ydata
               });
         }
         myChart.update();   
+        console.log(myChart.data.datasets[0].data);
     }
 
 /*-------------------------------------------------------------------- Chart Data --------------------------------------------------------------------------------------- */
@@ -183,22 +184,22 @@ $(document).ready(function(event) {
     });
 
 
-    function removeData(myChart) {
+    function removeData(chart) {
         console.log("the data has been removed");
-        myChart.data.labels.pop();
-        myChart.data.datasets.forEach((dataset) => {
+        chart.data.labels.pop();
+        chart.data.datasets.forEach((dataset) => {
             dataset.data.pop();
         });
-        myChart.update();
+        chart.update();
     }
 
-    function addData(myChart, label, data) {
-        console.log(myChart, label, data);
-        myChart.data.labels.push(label);
-        myChart.data.datasets.forEach((dataset) => {
+    function addData(chart, label, data) {
+        console.log(chart, label, data);
+        chart.data.labels.push(label);
+        chart.data.datasets.forEach((dataset) => {
             dataset.data.push(data);
         });
-        myChart.update();
+        chart.update();
         console.log("The graph should be updated with the following data: "+data);
     }
 });
