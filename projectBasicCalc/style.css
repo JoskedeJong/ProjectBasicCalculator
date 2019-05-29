@@ -32,9 +32,7 @@ body{
     'canvas canvas canvas'
     'canvas canvas canvas'
     'canvas canvas canvas'
-    'g1 g2 g3'
-    'g4 g5 g6'
-    'g7 g8 g9';
+    'g1 . g2';
     grid-gap: 10px;
 }
 
@@ -73,6 +71,7 @@ body{
 
 [class^=button]{
     background-color:cornsilk;
+    border: 1px solid rgb(81, 91, 100);
     min-width: 100px;
     min-height: 50px;
     text-align: center;

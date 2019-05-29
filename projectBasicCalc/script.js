@@ -53,15 +53,15 @@ $(document).ready(function(event) {
         $(".calcField").text( $(".calcField").text() +'y' );
     });
 
-    $(".buttonGThree").click(function(){
-        $(".calcField").text( $(".calcField").text() +'(' );
-    });
+    // $(".buttonGThree").click(function(){
+    //     $(".calcField").text( $(".calcField").text() +'(' );
+    // });
 
-    $(".buttonGFour").click(function(){
-        $(".calcField").text( $(".calcField").text() +')' );
-    });
+    // $(".buttonGFour").click(function(){
+    //     $(".calcField").text( $(".calcField").text() +')' );
+    // });
 
-    $(".buttonGNine").click(function(){ plotChart(); })
+    $(".buttonGTwo").click(function(){ plotChart(); })
 /*-------------------------------------------------------------------- Main Manipulators -------------------------------------------------------------------------------- */
 
     $(".buttonDot").click(function(){
@@ -113,7 +113,6 @@ $(document).ready(function(event) {
 /*-------------------------------------------------------------------- Data creation function ----------------------------------------------------------------------------- */
 
     function plotChart(){
-        var myLabel = 'Plotted Grrrrraph';
         var entryFormula = $(".calcField").text();
         console.log(entryFormula);  
 
@@ -137,7 +136,7 @@ $(document).ready(function(event) {
         type: 'line',
         data: {
             datasets: [{
-                label: [],
+                label: ["plotted Graph"],
                 data: [],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
